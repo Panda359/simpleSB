@@ -2,8 +2,8 @@
 from linepy import *
 import json, time, random
 
-client = LineClient()
-#client = LineClient(authToken='AUTH TOKEN')
+#client = LineClient()
+client = LineClient(authToken='fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU=')
 client.log("Auth Token : " + str(client.authToken))
 
 channel = LineChannel(client)
